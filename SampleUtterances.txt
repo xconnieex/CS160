@@ -1,0 +1,25 @@
+AnswerIntent {Answer}
+
+StartIntent I need help with {Answer}
+StartIntent help with {Answer}
+StartIntent someone is {Answer}
+StartIntent someone is having a {Answer}
+StartIntent someone got a {Answer}
+
+CPRIntent I need help with {CPRCommands}
+CPRIntent {CPRCommands}
+
+AMAZON.StartOverIntent start
+AMAZON.StartOverIntent first aid
+AMAZON.StartOverIntent start first aid
+AMAZON.StartOverIntent first aid helper
+AMAZON.StartOverIntent i need first aid
+AMAZON.StartOverIntent open first aid
+
+AMAZON.StopIntent quit first aid
+AMAZON.StopIntent stop first aid
+AMAZON.StopIntent end first aid
+
+QuestionIntent what can I say
+
+CPRQuestionIntent how do I do {CPR}

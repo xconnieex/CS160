@@ -1,0 +1,18 @@
+LIST_OF_CPRCOMMANDS
+yes
+no
+cpr
+CPR
+c.p.r
+ready
+done
+stop
+end
+stop cpr
+stop c.p.r
+quit cpr
+quit c.p.r
+restart
+restart chest compressions
+restart breaths
+restart rescue breaths

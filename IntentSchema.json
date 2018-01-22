@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "intent": "AnswerIntent",
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "LIST_OF_ANSWERS"
+        }
+      ]
+    },
+    {
+      "intent": "StartIntent",
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "LIST_OF_ANSWERS"
+        }
+      ]
+    },
+    {
+      "intent": "CPRIntent",
+      "slots": [
+        {
+          "name": "CPRCommands",
+          "type": "LIST_OF_CPRCOMMANDS"
+        }
+      ]
+    },
+ 	{
+      "intent": "CPREndIntent"
+    },
+	{
+      "intent": "CPRQuestionIntent",
+      "slots": [
+        {
+          "name": "CPR",
+          "type": "LIST_OF_CPR"
+        }
+      ]
+    },
+    {
+      "intent": "CPRRestartIntent",
+      "slots": [
+        {
+          "name": "CPR",
+          "type": "LIST_OF_CPR"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "QuestionIntent"
+    }
+  ]
+}
